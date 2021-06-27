@@ -1,0 +1,1 @@
+docker run -d --name aria2-ui -p 36183:80  -v /workspace/aria2-ariang-docker/data:/data  -v /workspace/aria2-ariang-docker/app/conf:/app/conf -v /workspace/aria2-ariang-docker//app/filebrowser.db:/app/filebrowser.db aria2-ui
